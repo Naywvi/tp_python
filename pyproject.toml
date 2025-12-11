@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "securite-python"
+version = "1.0.0"
+description = "TPs securite Python ESGI 4A"
+authors = ["Nagib Lakhdari"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scapy = "*"
+reportlab = "*"
+matplotlib = "*"
+capstone = "*"
+
+[tool.poetry.scripts]
+tp1 = "src.tp1.main:main"
+tp2 = "src.tp2.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
