@@ -10,10 +10,15 @@ scapy = "*"
 reportlab = "*"
 matplotlib = "*"
 capstone = "*"
+pillow = "*"
+pytesseract = "*"
+requests = "*"
 
 [tool.poetry.scripts]
 tp1 = "src.tp1.main:main"
 tp2 = "src.tp2.main:main"
+tp3 = "src.tp3.main:main"
+tp4 = "src.tp4.main:solve"
 
 [build-system]
 requires = ["poetry-core"]
